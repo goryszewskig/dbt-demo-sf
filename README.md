@@ -1,4 +1,6 @@
 Welcome to your new dbt project!
+
+``` sql
 -- create accounts
 use role accountadmin;
 
@@ -55,8 +57,7 @@ use role dbt_role;
 use role ACCOUNTADMIN;
 
 
-select * from DBT_DB.DBT_SCHEMA.STG_TPCH_LINE_ITEMS;
-
+```
 ### Using the starter project
 
 Try running the following commands:
